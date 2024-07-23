@@ -6,7 +6,7 @@ import openai
 import requests
 import random
 
-openai.api_key = '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'
+openai.api_key = 'openai_key'
 
 class ImageLabelingApp:
     def __init__(self, root, image_folders):
